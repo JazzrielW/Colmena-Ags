@@ -62,24 +62,14 @@
     }
   </style>
   
-    <div class="header">   
-        <div>
-            <a href="/">Información</a>
-        </div>
-
-        <div>
-            <a href="/biblioteca">Biblioteca</a>
-        </div>
-
-        <div>
-            <a href="/">Unetenos</a>
-        </div>
-
-      <div>
-            <a href="boletin">Boletin</a>
-        </div>
-      
-    </div>
+      <script src="/jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("/Head_master.html"); 
+    });
+    </script> 
+    
+    <div id="includedContent"></div>
   </head>
 
 <pagina>
